@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CV — Aira Emmanuella</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="CV Aira Emmanuella — Desain elegan, dapat dicetak dan dipublikasikan online.">
+</head>
+<body>
+  <main class="resume">
+    <aside class="sidebar">
+      <div class="photo" aria-hidden="true">
+        <!-- Ganti dengan <img src="path-ke-foto.jpg" alt="Aira Emmanuella"> -->
+        <svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" role="img">
+          <rect width="120" height="120" fill="#fff"/>
+          <g fill="#f05a00" opacity="0.12">
+            <rect x="0" y="0" width="120" height="120"/>
+          </g>
+          <text x="50%" y="50%" font-size="14" text-anchor="middle" fill="#666" dy=".35em">Foto</text>
+        </svg>
+      </div>
+
+      <h1 class="name">Aira Emmanuella</h1>
+      <p class="role">Pelajar / Lulusan SMA</p>
+
+      <section class="contact">
+        <h2>Kontak</h2>
+        <ul>
+          <li><strong>HP:</strong> +62-896-0286-8295</li>
+          <li><strong>Email:</strong> emmanuellaaira@gmail.com</li>
+          <li><strong>Alamat:</strong> Taman Rahayu I Blok A4 No. 10</li>
+          <li><strong>Website:</strong> <a href="https://www.airaemma.com" target="_blank" rel="noopener">airaemma.com</a></li>
+        </ul>
+      </section>
+
+      <section class="skills">
+        <h2>Keahlian</h2>
+        <ul>
+          <li>Desain Grafis</li>
+          <li>Fotografi</li>
+          <li>Teamwork</li>
+          <li>Leadership</li>
+        </ul>
+      </section>
+
+      <section class="languages">
+        <h2>Bahasa</h2>
+        <ul>
+          <li>Bahasa Indonesia (Fasih)</li>
+          <li>Bahasa Inggris (Dasar)</li>
+          <li>Bahasa Mandarin (Dasar)</li>
+        </ul>
+      </section>
+
+      <section class="certificates">
+        <h2>Sertifikat</h2>
+        <ul>
+          <li>Sertifikat Volunteer</li>
+          <li>Sertifikat Olimpiade Fisika</li>
+        </ul>
+      </section>
+    </aside>
+
+    <section class="content">
+      <header class="header">
+        <div class="highlight"></div>
+        <h2>Ringkasan</h2>
+      </header>
+
+      <section class="summary">
+        <p>
+          Saya merupakan siswa yang aktif, bertanggung jawab, dan memiliki semangat belajar yang tinggi. Senang mempelajari hal-hal baru, mampu bekerja sama dalam tim, serta dapat beradaptasi dengan baik terhadap lingkungan baru. Berkomitmen menjalankan tugas dengan sungguh-sungguh dan memberikan hasil terbaik.
+        </p>
+      </section>
+
+      <section class="experience">
+        <h3>Experience</h3>
+        <article class="item">
+          <h4>Proyek P5 — 2025</h4>
+          <p class="meta">Memimpin tim proyek (Koordinasi, pembagian tugas, presentasi hasil)</p>
+          <ul>
+            <li>Mengoordinasikan tim dan timeline.</li>
+            <li>Mengawasi kualitas output & presentasi.</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="education">
+        <h3>Pendidikan</h3>
+        <article class="item">
+          <h4>SMA BPK Penabur Holis</h4>
+          <p class="meta">2024 — 2027</p>
+        </article>
+        <article class="item">
+          <h4>SMPK 3 Bina Bakti</h4>
+          <p class="meta">2021 — 2024</p>
+        </article>
+      </section>
+
+      <section class="additional">
+        <h3>Aktivitas & Minat</h3>
+        <p>Desain grafis, fotografi, organisasi sekolah, presentasi proyek.</p>
+      </section>
+
+      <footer class="footer">
+        <p>CV dibuat menggunakan template HTML/CSS. Untuk mengedit: buka index.html dan ubah teks di tempat yang sesuai.</p>
+      </footer>
+    </section>
+  </main>
+</body>
+</html>
