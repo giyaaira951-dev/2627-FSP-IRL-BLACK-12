@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>CV — Aira Emmanuella</title>
+<style>
+  :root{
+    --accent:#ff9100; /* oren stabilo */
+    --accent-strong:#ff6f00;
+    --bg:#ffffff;
+    --muted:#6b6b6b;
+    --card:#ffffff;
+    --radius:12px;
+    --maxw:900px;
+    --gap:18px;
+    --body-font: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+
+  html,body{height:100%;margin:0;background:linear-gradient(180deg,#fff 0%, #fff 62%, rgba(255,145,0,0.04) 100%);font-family:var(--body-font);color:#111;}
+  .container{max-width:var(--maxw);margin:28px auto;padding:26px;background:var(--card);box-shadow:0 10px 30px rgba(10,10,10,0.06);border-radius:16px;display:grid;grid-template-columns:260px 1fr;gap:var(--gap);overflow:hidden;}
+  /* Left column */
+  .sidebar{padding:20px;background:linear-gradient(180deg,rgba(255,145,0,0.06), rgba(255,145,0,0.02));border-radius:12px;}
+  .photo{width:120px;height:120px;margin:0 auto;border-radius:50%;overflow:hidden;box-shadow:0 6px 20px rgba(0,0,0,0.08);border:6px solid #fff;display:flex;align-items:center;justify-content:center;background:var(--accent-strong);color:#fff;font-weight:700;font-size:42px}
+  .name{margin-top:14px;text-align:center;font-size:20px;font-weight:700}
+  .role{display:block;text-align:center;color:var(--muted);font-size:13px;margin-top:4px}
+  .contact{margin-top:18px;font-size:14px;line-height:1.6;color:#222}
+  .contact div{display:flex;gap:10px;align-items:center}
+  .divider{height:1px;background:linear-gradient(90deg,transparent,#eee,transparent);margin:16px -8px;border-radius:2px}
+  .section-title{font-size:13px;letter-spacing:0.6px;color:var(--accent-strong);font-weight:700;margin-bottom:8px}
+  .tag{display:inline-block;background:var(--accent);color:#fff;padding:6px 10px;border-radius:999px;font-weight:600;font-size:13px;margin:6px 6px 6px 0}
+  .skill-list{display:flex;flex-wrap:wrap;margin-top:8px}
+  .lang-list{margin-top:6px;color:var(--muted)}
+
+  /* Right column */
+  .main{padding:8px 6px 20px 6px}
+  header.main-header{display:flex;align-items:flex-start;gap:18px;justify-content:space-between}
+  .headline{padding:10px 14px;border-radius:10px;background:linear-gradient(90deg,var(--accent) 0%, var(--accent-strong) 100%);color:#fff;font-weight:700}
+  .about{margin-top:16px;color:#222;line-height:1.6}
+  .block{margin-top:18px}
+  .item{margin-bottom:12px}
+  .item h4{margin:0;font-size:16px}
+  .meta{color:var(--muted);font-size:13px;margin-bottom:6px}
+  .project-desc, .edu-desc, .cert-desc{color:#222;line-height:1.5}
+  .two-col{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  /* accent bar on the right of headings */
+  h3.section{display:flex;align-items:center;gap:10px;margin:0 0 10px 0;font-size:15px}
+  h3.section::after{content:"";flex:1;height:6px;background:linear-gradient(90deg,var(--accent) 0%, transparent 100%);border-radius:4px}
+  /* print friendly / A4 */
+  @media print{
+    body{background:white}
+    .container{box-shadow:none;border-radius:0;max-width:100%;margin:0;padding:0;}
+    .sidebar{padding:12px}
+  }
+  /* responsive */
+  @media (max-width:800px){
+    .container{grid-template-columns:1fr; padding:16px;}
+    .sidebar{order:2}
+    .main{order:1}
+    .photo{width:96px;height:96px;font-size:34px}
+  }
+
+  /* small utilities */
+  .muted{color:var(--muted);font-size:13px}
+  .pill{display:inline-block;background:#f6f6f6;padding:6px 10px;border-radius:999px;font-size:13px;margin-right:6px}
+  .contact .icon{width:18px;height:18px;display:inline-block;opacity:0.9}
+  .footer-note{margin-top:18px;color:var(--muted);font-size:12px;text-align:center}
+</style>
+</head>
+<body>
+  <div class="container" role="document">
+    <aside class="sidebar" aria-label="Aira Emmanuella Sidebar">
+      <div class="photo" aria-hidden="true">
+        <img src="Aira.jpeg" alt="Foto" width="150">
+          
+        </svg>
+      </div>
+
+      <div class="name" aria-hidden="false">Aira Emmanuella</div>
+      <div class="role">Lulusan SMA • Pelajar Aktif & Leader</div>
+
+      <div class="divider" role="separator"></div>
+
+      <div class="contact" aria-label="Kontak">
+        <div><svg class="icon" viewBox="0 0 24 24" fill="none"><path d="M21 8.5v6a2 2 0 0 1-2 2h-1" stroke="#333" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg><strong>+62-896-0286-8295</strong></div>
+        <div><svg class="icon" viewBox="0 0 24 24" fill="none"><path d="M3 8.5l9 6 9-6" stroke="#333" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span>emmanuellaaira@gmail.com</span></div>
+        <div><svg class="icon" viewBox="0 0 24 24" fill="none"><path d="M21 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h8" stroke="#333" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Taman Rahayu I Blok A4 No.10</span></div>
+        <div><svg class="icon" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="#333" stroke-width="1.4"/></svg><span>www.airaemma.com</span></div>
+      </div>
+
+      <div class="divider"></div>
+
+      <div>
+        <div class="section-title">Keahlian</div>
+        <div class="skill-list">
+          <span class="tag">Desain Grafis</span>
+          <span class="tag">Fotografi</span>
+          <span class="tag">Teamwork</span>
+          <span class="tag">Leadership</span>
+        </div>
+      </div>
+
+      <div style="margin-top:12px">
+        <div class="section-title">Bahasa</div>
+        <div class="lang-list">
+          Bahasa Indonesia (Lancar)<br>
+          Bahasa Inggris (Menengah)<br>
+          Bahasa Mandarin (Dasar)
+        </div>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="footer-note">Siap untuk magang, proyek, atau kolaborasi.</div>
+    </aside>
+
+    <main class="main" aria-label="Main CV">
+      <header class="main-header" role="banner">
+        <div>
+          <h1 style="margin:0;font-size:26px">Aira Emmanuella</h1>
+          <div class="muted" style="margin-top:6px">Pelajar / Leader • Lulusan SMA • Minat: Desain & Fotografi</div>
+        </div>
+        <div class="headline">CV Profesional</div>
+      </header>
+
+      <section class="block about" aria-labelledby="about">
+        <h3 class="section" id="about">Tentang Saya</h3>
+        <p class="about">
+          Saya merupakan siswa yang aktif, bertanggung jawab, dan memiliki semangat belajar yang tinggi. Senang mempelajari hal baru, mampu bekerja sama dalam tim, serta mudah beradaptasi terhadap lingkungan dan situasi baru. Berkomitmen menyelesaikan tugas dengan sungguh-sungguh dan menghasilkan output terbaik.
+        </p>
+      </section>
+
+      <section class="block" aria-labelledby="experience">
+        <h3 class="section" id="experience">Pengalaman</h3>
+
+        <div class="item" role="article">
+          <h4>Proyek P5 — Pemimpin Tim</h4>
+          <div class="meta">2025 • Memimpin tim proyek</div>
+          <div class="project-desc">Memimpin dan mengoordinasikan tim, membagi tugas, memastikan kegiatan berjalan sesuai rencana, serta bertanggung jawab atas penyelesaian dan presentasi hasil proyek.</div>
+        </div>
+
+        <div class="item">
+          <h4>Kegiatan Sekolah & Ekstrakurikuler</h4>
+          <div class="meta">2021—2026</div>
+          <div class="project-desc">Aktif mengikuti kegiatan sekolah, kepanitiaan, dan berbagai inisiatif kreatif (desain, fotografi, presentasi).</div>
+        </div>
+      </section>
+
+      <section class="block" aria-labelledby="education">
+        <h3 class="section" id="education">Pendidikan</h3>
+        <div class="item">
+          <h4>SMA BPK Penabur Holis</h4>
+          <div class="meta">2024 — 2027</div>
+          <div class="edu-desc">Program SMA, fokus pengembangan akademik dan keterampilan kreatif.</div>
+        </div>
+
+        <div class="item">
+          <h4>SMPK 3 Bina Bakti</h4>
+          <div class="meta">2021 — 2024</div>
+        </div>
+      </section>
+
+      <section class="block" aria-labelledby="projects">
+        <h3 class="section" id="projects">Proyek & Pencapaian</h3>
+        <div class="item">
+          <h4>Proyek Kepemimpinan Sekolah</h4>
+          <div class="meta">Pengorganisasian & Presentasi</div>
+          <div class="project-desc">Mengelola tim kecil untuk menyelesaikan tugas proyek, mempresentasikan hasil, dan memastikan timeline terpenuhi.</div>
+        </div>
+      </section>
+
+      <section class="block" aria-labelledby="cert">
+        <h3 class="section" id="cert">Sertifikat</h3>
+        <div class="item">
+          <div class="cert-desc">Sertifikat Volunteer — Kegiatan Sosial</div>
+          <div class="cert-desc">Sertifikat Olimpiade Fisika — Partisipasi/Penghargaan</div>
+        </div>
+      </section>
+
+      <section class="block" aria-labelledby="contact2">
+        <h3 class="section" id="contact2">Kontak</h3>
+        <div class="two-col" style="margin-top:8px">
+          <div>
+            <div class="muted">Telepon</div>
+            <div>+62-896-0286-8295</div>
+          </div>
+          <div>
+            <div class="muted">Email & Website</div>
+            <div>emmanuellaaira@gmail.com • www.airaemma.com</div>
+          </div>
+        </div>
+      </section>
+
+      <div style="margin-top:18px;color:var(--muted);font-size:12px">
+        Catatan: Untuk mengganti foto, buka file HTML ini dan ganti <code>&lt;svg&gt;...&lt;/svg&gt;</code> di bagian .photo dengan tag gambar Anda, mis. <code>&lt;img src="data:image/jpeg;base64,&lt;...&gt;" alt="Foto Aira"&gt;</code> atau <code>&lt;img src="foto.jpg" alt="Foto Aira"&gt;</code> jika file foto disimpan bersama HTML.
+      </div>
+
+    </main>
+  </div>
+
+  <!-- Optional: script untuk membantu download/print (offline-ready) -->
+  <script>
+    // Jika ingin tombol cetak otomatis aktif, uncomment baris di bawah:
+    // window.print();
+  </script>
+</body>
+</html>
